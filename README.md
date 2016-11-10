@@ -8,7 +8,7 @@ OC快速创建控件、编码、加密、Emoji转换、关联对象、输入JSON
 
 * 快速创建Label
 * 快速创建Button
-* 快速创建BarButtonItem
+* 快速创建BarButtonItem
 
 * 快速创建View
 * 快速创建ViewController
