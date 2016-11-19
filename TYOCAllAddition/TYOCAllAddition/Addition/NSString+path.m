@@ -25,4 +25,13 @@
     return filePath;
 
 }
+
+- (NSString *)appendTempPath
+{
+    NSString *path = NSTemporaryDirectory();
+    NSString *name = [self lastPathComponent];
+    NSString *filePath = [path stringByAppendingPathComponent:name];
+    
+    return filePath;
+}
 @end

@@ -6,5 +6,7 @@
 - (NSString *)appendCaches;
 ///获取沙盒调用者对应的NSDocument的路径
 - (NSString *)appendDocument;
+///获取沙盒调用者对应的Temporary的路径
+- (NSString *)appendTempPath;
 
 @end
