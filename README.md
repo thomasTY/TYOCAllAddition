@@ -14,6 +14,7 @@ OC快速创建控件、编码、加密、Emoji转换、关联对象、输入JSON
 * 快速创建ViewController
 * 快速拿到屏幕宽高分辨率
 * 快速创建ImageView
+* 将image缩放到指定大小
 
 * 快速创建自转模型
 * Runtime快速关联对象

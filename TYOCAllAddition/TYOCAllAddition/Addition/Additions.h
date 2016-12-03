@@ -8,6 +8,7 @@
 #import "UIViewController+Addition.h"//快速创建ViewController
 #import "UIScreen+Addition.h"//快速拿到屏幕宽高分辨率
 #import "UIImageView+Addition.h"//快速创建ImageView
+#import "UIImage+Scale.h" //将image缩放到指定大小
 
 #import "NSObject+Addition.h"//快速创建自转模型
 #import "NSObject+Runtime.h"//Runtime快速关联对象
