@@ -19,6 +19,23 @@
     return button;
 }
 
++ (instancetype)buttonText:(NSString *)title fontSize:(CGFloat)fontSize normalColor:(UIColor *)normalColor target:(id)target action:(SEL)action
+{
+    UIButton *button = [[self alloc] init];
+    
+    [button setTitle:title forState:UIControlStateNormal];
+    
+    [button setTitleColor:normalColor forState:UIControlStateNormal];
+    
+    button.titleLabel.font = [UIFont systemFontOfSize:fontSize];
+    
+    [button addTarget:(target) action:(action) forControlEvents:UIControlEventTouchUpInside];
+    
+    [button sizeToFit];
+    
+    return button;
+}
+
 + (instancetype)buttonText:(NSString *)title fontSize:(CGFloat)fontSize fontColor:(UIColor *)fontColor backgroundImgName:(NSString *)backgroundImgName target:(nullable id)target action:(nonnull SEL)action
 {
     UIButton *button = [[self alloc] init];
@@ -35,7 +52,7 @@
     [button addTarget:(target) action:(action) forControlEvents:UIControlEventTouchUpInside];
     
     return button;
-
+    
 }
 
 
